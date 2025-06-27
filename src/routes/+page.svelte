@@ -2,6 +2,7 @@
   let { children } = $props();
   import "../app.css";
   import Apresentation from "../components/Apresentation.svelte";
+  import FaQs from "../components/FAQs.svelte";
   import Footer from "../components/Footer.svelte";
   import Hero from "../components/Hero.svelte";
   import Socialproof from "../components/Socialproof.svelte";
@@ -11,5 +12,6 @@
   <Hero />
   <Apresentation />
   <Socialproof />
+  <FaQs />
 </main>
 <Footer />
