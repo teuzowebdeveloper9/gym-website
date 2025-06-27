@@ -17,11 +17,6 @@
     </button>
     <nav class="hidden md:flex items-center gap-8">
       <a
-        href="/"
-        class="text-lg font-semibold text-gray-800 hover:text-orange-400 transition-colors"
-        >Home</a
-      >
-      <a
         href="#Apresentation"
         class="text-lg font-semibold text-gray-600 hover:text-orange-400 transition-colors"
         >product</a
