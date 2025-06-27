@@ -1,4 +1,5 @@
 <script>
+  import { openModal } from "$lib";
 </script>
 
 <header class="flex flex-col relative z-20">
@@ -10,7 +11,11 @@
         teuzo <span class="text-orange-400">gym </span>
       </h1>
     </a>
-    <button aria-label="Open menu" class="md:hidden grid place-items-center">
+    <button
+      on:click={() => ($openModal = true)}
+      aria-label="Open menu"
+      class="md:hidden grid place-items-center"
+    >
       <div class="h-1 w-[30px] mb-2 bg-black rounded"></div>
       <div class="h-1 w-[30px] mb-2 bg-black rounded"></div>
       <div class="h-1 w-[30px] mb-2 bg-black rounded"></div>
