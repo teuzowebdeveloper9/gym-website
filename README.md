@@ -1,38 +1,38 @@
-# sv
+# Gym Website - Svelte Project
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Overview
 
-## Creating a project
+This project is a responsive gym website built using Svelte. It was developed as a refresher exercise to reinforce and update my Svelte skills after a period of not using the framework. The experience of creating this project was both enjoyable and educational.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Technical Details
 
-```bash
-# create a new project in the current directory
-npx sv create
+### Svelte Features Utilized
 
-# create a new project in my-app
-npx sv create my-app
-```
+- **Reactive Declarations**: Leveraged Svelte's reactive statements for efficient state management.
+- **Stores**: Implemented `writable` stores from Svelte to maintain a responsive modal state across components.
+- **Conditional Rendering**: Utilized `#if` blocks for handling responsive design logic.
+- **List Rendering**: Employed `#each` blocks for efficiently mapping and rendering arrays of objects in the frontend.
 
-## Developing
+### Additional Technologies
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- **Tailwind CSS**: Integrated for rapid UI development and consistent styling.
+- **Component Architecture**: Implemented a well-structured component hierarchy for improved maintainability and reusability.
 
-```bash
-npm run dev
+## Project Structure
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+The project follows a modular component-based architecture, with clear separation of concerns:
 
-## Building
+- `src/components`: Contains reusable Svelte components
+- `src/routes`: Defines the routing structure of the application
+- `src/lib`: Houses utility functions and shared resources
+- `src/utils`: Stores data objects and helper functions
 
-To create a production version of your app:
+## Responsive Design
 
-```bash
-npm run build
-```
+Special attention was given to ensuring the website is fully responsive, adhering to modern frontend development standards. The use of Tailwind CSS and Svelte's conditional rendering facilitated the creation of a fluid, adaptive layout.
 
-You can preview the production build with `npm run preview`.
+## Project Creation
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+**Note**: The traditional method of creating a Svelte project is now deprecated. The current recommended approach is to use:
+
+npx create-svelte@latest my-app
