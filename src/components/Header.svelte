@@ -22,7 +22,7 @@
         >Home</a
       >
       <a
-        href="#product"
+        href="#Apresentation"
         class="text-lg font-semibold text-gray-600 hover:text-orange-400 transition-colors"
         >product</a
       >
@@ -35,6 +35,11 @@
         href="#FAQs"
         class="text-lg font-semibold text-gray-600 hover:text-orange-400 transition-colors"
         >FAQ</a
+      >
+      <a
+        href="#FAQs"
+        class="text-lg border-2 h-[80px] border-gray-200 hover:bg-amber-300 items-center justify-center flex w-[140px] p-4 rounded-3xl font-semibold text-gray-600 hover:text-orange-400 transition-colors"
+        >start free</a
       >
     </nav>
   </div>

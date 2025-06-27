@@ -12,3 +12,24 @@ span {
   font-family: inherit;
   font-weight: inherit;
 }
+
+button{
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: antiquewhite;
+  cursor: pointer;
+  transition: border-color 0.3s ease, background-color 0.3s ease; 
+}
+
+button:hover {
+  border-color: rgb(163, 118, 34);
+  background-color: rgb(216, 149, 25);
+}
+button:focus,
+button:focus-visible{
+  outline: 4px solid -webkit-focus-ring-color;
+  box-shadow: 0 0 0 3px rgba(216, 149, 25, 0.5);
+}
