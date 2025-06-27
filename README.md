@@ -35,7 +35,8 @@ Special attention was given to ensuring the website is fully responsive, adherin
 
 **Note**: The traditional method of creating a Svelte project is now deprecated. The current recommended approach is to use:
 
-npx create-svelte@latest my-app
+npx sv create name-of-project
+
 ![image](https://github.com/user-attachments/assets/41de16de-174a-4a9d-80ff-faeec4ce1820)
 
 ![image](https://github.com/user-attachments/assets/71f08c93-0370-4f8a-a391-ad0666bbbd5d)
