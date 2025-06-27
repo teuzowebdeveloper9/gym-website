@@ -1,6 +1,7 @@
 <script>
   let { children } = $props();
   import "../app.css";
+  import Footer from "../components/Footer.svelte";
 </script>
 
 <h1 class="font-bold flex text-3xl items-center justify-center">
@@ -10,3 +11,4 @@
   Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the
   documentation
 </p>
+<Footer />
